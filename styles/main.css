@@ -46,18 +46,62 @@ h3 {
   font-size: 1.5rem;
   color: black;
   text-align: center;
+  width: 80%;
+  display: inline-flex;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.profile-pic {
+  max-width: 100%;
+}
+.img-col {
+  flex-basis: 40%;
+}
+.text-col {
+  flex-basis: 40%;
+  background-color: #9aa58394;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height: 100%;
 }
 .about-me-pic {
   display: inline-block;  
-  width: 80%;
+  width: 60%;
   height: auto;
 }
-
+.text-box {
+  display:inline-block;
+  background-color: #9aa58394;
+  font-size: 20px;
+  width: 60%;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 50px;
+}
 p, li {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
   color: black;
   text-align: center;
+  font-size: 20px;
+}
+.footer-image {
+  width: 100%
 }
 
-
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 10px;
+  }
+  .container {
+    display:list-item;
+  }
+  .logo {
+    width: 100%;
+  }
+}
 
