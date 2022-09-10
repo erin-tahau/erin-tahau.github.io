@@ -7,33 +7,43 @@
     <link href="../styles/tech-2-blog.css" rel="stylesheet"> 
   </head>
   <body>
-    <h2 id="left-align">What's Margin, Border and Padding??</h2>
-    <a class=menu href="../index.html">HOME</a>
-    <p>Below are two pictures of beaches <em id="small-text">(This is our content)</em></p>
-    <img src="beach-1.jpg" alt="picture of a beach">
-    <img src="beach-2.jpg" alt="another picture of a beach">
-    <p>Imagine that these are photos that you took and you want to hang them on your wall in your room.</p>
-    <p id="small-text"><em>(Your wall being this blog page)</em></p>
-    <p>It looks a bit amature as a photographer to just blue tack them next to each other on the wall...</p>
-    <p>They could probably do with a frame??</p>
-    <p>How about we add one. <em id="small-text">(Frame being a border)</em></p>
-    <img class="frame-only" src="beach-1.jpg" alt="picture of a beach">
-    <img class="frame-only" src="beach-2.jpg" alt="another picture of a beach">
-    <p>I did this by running the following code in my css file:</p>
-    <img class="code-pic" src="border-code.png">
-    <p>Having a photo sitting in a frame looks as if there is no love given to your amazing photographs.</p>
-    <p>I'm going to add a mat to my frame <em id="small-text">(padding)</em> </p>
-    <img class="frame-mat" src="beach-1.jpg" alt="picture of a beach">
-    <img class="frame-mat" src="beach-2.jpg" alt="another picture of a beach">
-    <p>This can be achieved by adding padding to img element:</p>
-    <img class="code-pic" src="border-padding-code.png">
-    <p>This is starting to look much better, 
-      but I would never put two framed photos so close to each other on a wall.</p>
-    <p>I would add a bit of space <em id="small-text">(margin)</em> between them so they're not so cluttered.</p>
-    <img class="finished-pic" src="beach-1.jpg" alt="picture of a beach">
-    <img class="finished-pic" src="beach-2.jpg" alt="another picture of a beach">
-    <p>And finally to get this style, I set margin top and bottom to 20px, and margin left and right to 50px.</p>
-    <img class="code-pic" src="border-padding-margin-code.png">
-    <p>Now each photograph stands out in its own right!</p>
+    <div><img class="logo" src="../erin-blog.png"></div>
+    <div class="topnav">
+      <a href="../index.html">HOME</a>
+      <a href="../about-me.html">ABOUT ME</a> 
+      <a class="active" href="#blog">BLOG</a>
+    </div> 
+    <h2>What's Margin, Border and Padding??</h2>
+    <h3>In this blog post, I will explain what Margin, Border and Padding is in CSS, and I'll do this by using a photoframe analogy.</h3>
+    <div class="text-box">
+      <p>Below are two pictures of beaches <em id="small-text">(This is our content)</em></p>
+      <img src="Pictures/beach-1.jpg" alt="picture of a beach">
+      <img src="Pictures/beach-2.jpg" alt="another picture of a beach">
+      <p>Imagine that these are photos that you took and you want to hang them on your wall in your room.</p>
+      <p id="small-text"><em>(Your wall being this blog page)</em></p>
+      <p>It looks a bit amature as a photographer to just blue tack them next to each other on the wall...</p>
+      <p>They could probably do with a frame??</p>
+      <p>How about we add one. <em id="small-text">(Frame being a border)</em></p>
+      <img class="frame-only" src="Pictures/beach-1.jpg" alt="picture of a beach">
+      <img class="frame-only" src="Pictures/beach-2.jpg" alt="another picture of a beach">
+      <p>I did this by running the following code in my css file:</p>
+      <img class="code-pic" src="Pictures/border-code.png">
+      <p>Having a photo sitting in a frame looks as if there is no love given to your amazing photographs.</p>
+      <p>I'm going to add a mat to my frame <em id="small-text">(padding)</em> </p>
+      <img class="frame-mat" src="Pictures/beach-1.jpg" alt="picture of a beach">
+      <img class="frame-mat" src="Pictures/beach-2.jpg" alt="another picture of a beach">
+      <p>This can be achieved by adding padding to img element:</p>
+      <img class="code-pic" src="Pictures/border-padding-code.png">
+      <p>This is starting to look much better, but I would never put two framed photos so close to each other on a wall.</p>
+      <p>I would add a bit of space <em id="small-text">(margin)</em> between them so they're not so cluttered.</p>
+      <img class="finished-pic" src="Pictures/beach-1.jpg" alt="picture of a beach">
+      <img class="finished-pic" src="Pictures/beach-2.jpg" alt="another picture of a beach">
+      <p>And finally to get this style, I set margin top and bottom to 20px, and margin left and right to 50px.</p>
+      <img class="code-pic" src="Pictures/border-padding-margin-code.png">
+      <p>Now each photograph stands out in its own right!</p>
+    </div>
+    <div>
+      <img src="te-mata-peak.png" class="footer-image">
+    </div>
   </body>
   </html>
