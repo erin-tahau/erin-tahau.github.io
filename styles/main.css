@@ -2,6 +2,7 @@ body {
   background: #f5f4ee;
   font-family: Arial, Helvetica, sans-serif, Tahoma;
   text-align: center;
+  display:
  }
 .logo {
   width: 50%;
@@ -54,8 +55,8 @@ h3 {
   color: black;
   text-align: center;
   width: 80%;
-  display: inline-flex;
-  margin: 24px 0px 0px 0px;
+  display: inline-block;
+  margin: 24px 0px 24px 0px;
 }
 .container {
   display: flex;
@@ -97,11 +98,17 @@ p, li {
   text-align: center;
   font-size: 20px;
 }
+li {
+  list-style-position: inside;
+  text-align: left;
+}
 
 .footer-image {
   width: 100%
 }
-
+img {
+  width: 50%;
+}
 
 @media only screen and (max-width: 600px) {
   p {
