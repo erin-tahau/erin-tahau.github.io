@@ -19,57 +19,74 @@
         <h2>JavaScript Fundamentals</h2>
       </div>
       <div>
-        <img src="Pictures/EQ.jpg" alt="EQ IQ image"/>
+        <img src="Pictures/js-icon.jpg" alt="JavaScript image"/>
       </div>
       <h3>JavaScript and its relationship to HTML and CSS</h3>
         <div class="text-box">
           <p>Imagine that HTML is a tree. All trees share the same anatomy- roots, a trunk, branches and twigs.</p>
-          <p>CSS displays how the tree looks. How big it is, the leaf colour and shape, the type of flowers or fruit etc.</p>
-          <P>CSS makes the tree beautiful, and unique.</p>
-          <p>JavaScript is what manipulates the tree. If a bee pollunates a flower, the flower turns to fruit. If it is Autumn, the leaves fall off. If it is spring, new leaves and flowers will grow.</p>
+          <p>CSS displays how the tree looks. How big it is, the leaf colour and shape, the type of flowers or fruit etc. CSS makes the tree beautiful and unique.</p>
+          <p>JavaScript (JS) is what manipulates the tree. If a bee pollunates a flower, the flower turns to fruit. If it is Autumn, the leaves fall off. If it is Spring, new leaves and flowers will grow.</p>
         </div>
         <h3>Control flow and loops, arrays, and objects</h3>
         <div class="text-box">
-          <p>Control Flow in JS is the order that the computer reads and applies the information, which defaults as top to bottom, left to right. However, a loop can change the flow.</p> 
-          <p>A loop is like when you look at your phone and see you have 5 new emails.</p>
+          <p><strong>Control Flow</strong> in JavaScript (JS) is the order that the computer reads and applies the information, which defaults as top to bottom, left to right. However, a loop can change the flow.</p> 
+          <hr>
+          <p>A <strong>Loop</strong> is like looking at your phone to see if you have any new emails.</p>
           <img src="Pictures/Email-loop.png"> 
           <p>You continue the loop until there are no new emails in your inbox.</p>
-          <p>An array stores data as either a string: 'name', number: 123, or Boolean: true/false.</p>
-          <p>When indexing arrays, the first item in the list is 0 (not 1 which is how we normally start counting from). For example:</p>
-          <p>Let drinkOptions = ['coffee', 'water', 'juice',  'wine']</p>
+          <hr>
+          <p>An <strong>Array</strong> stores data as either a <em>string: 'name'</em>, <em>number: 123</em>, or <em>Boolean: true/false</em>.</p>
+          <p>When indexing arrays, the first item in the list is 0 (not 1 -which is where we would normally start counting from). For example:</p>
+          <p class="code-box">Let drinkOptions = ['coffee', 'water', 'juice',  'wine']</p>
           <p>In this string, coffee is indexed as 0, water is 1, juice is 2 etc.
             To find out how many items are in the array, I would use:</p>
-          <p>drinkOptions.length //this will return 4.</p>      
+            <div class="code-box">
+              <p>drinkOptions.length</p>
+              <p id="indent"><em>// will return 4</em></p>
+            </div>                 
           <p>To access an item in an array through referencing the index, I would use:</p>
-          <p>console.log(I'm dying for a big glass of [3]!) //which will return 'I'm dying for a big glass of wine!'</p>  
-          <p>An Object stores data inside a variable and uses key:'value' pairs. For example:</p>
-          <p>Let drinkOption = {</p>
-          <p>   	Morning: 'coffee',</p>
-          <p>   	Lunch: 'water',</p>
-          <p>   	Afternoon: 'juice',</p>
-          <p>   	Evening: 'wine',</p>
-          <p>}</p>
+          <div class="code-box">
+            <p>console.log(I'm dying for a big glass of [3]!)</p>
+            <p id="indent"><em>// will return 'I'm dying for a big glass of wine!'</em></p>
+          </div>
+          <hr>
+          <p>An <strong>Object</strong> stores data inside a variable and uses key:'value' pairs. For example:</p>
+            <div class="code-box">
+              <p>Let drinkOption = {</p>
+              <p id="indent">Morning: 'coffee',</p>
+              <p id="indent">Lunch: 'water',</p>
+              <p id="indent">Afternoon: 'juice',</p>
+              <p id="indent">Evening: 'wine',</p>
+              <p>}</p>
+            </div>
           <p>To access information from an object, we use dot notation (example 1) or with square brackets (example 2)</p>
-          <p>drinkOption.Morning //will return coffee</p>
-          <p>drinkOption[Lunch] //will return water</p>
-        </div>
+            <div class="code-box">
+              <p>drinkOption.Morning</p>
+              <p id="indent"><em>// will return coffee</em></p>
+            </div>
+            
+            <div class="code-box">
+              <p>drinkOption[Lunch]</p>
+              <p id="indent"><em>// will return water</em></p>
+            </div>
+          </div>
         <h3>Functions and why they are useful</h3>
         <div class="text-box">
-          <p>A function is a block of code that is used to perform a specific task. For the task to be executed, you need to 'call' the function.</p> 
-          <p>Function()</p>
+          <p>A <strong>Function</strong> is a block of code that is used to perform a specific task. For the task to be executed, you need to 'call' the function.</p> 
+          <p class="code-box">Function()</p>
           <p>Functions are helpful because if you are using that block of code over and over throughout your programming, you can call on it again, instead of having to write it out each time. This helps make the code easy to read without any extra clutter.
           </p>
         </div>
         <h3>The DOM and DevTools</h3>
         <div class="text-box">
-          <p>The Document Object Model (DOM) is a programming interface, which means that by using the DOM, we can interact with web pages by adding, deleting or changing content on a HTML document. The HTML document
+          <p>The <strong>Document Object Model (DOM)</strong> is a programming interface, which means that by using the DOM, we can interact with web pages by adding, deleting or changing content on a HTML document. The HTML document
             can be viewed as either a webpage in a browser window or as the HTML source, like below:</p>
           <img src="Pictures/html-structure.png"> 
-          <p>All the elements in the above HTML document is an object when it comes to the DOM (the head, body, h1 and p are all objects). JavaScript works with objects. So, this means that with the help of the DOM, the HTML document and JavaScript can now communicate together. </p> 
+          <p>All the elements in the above HTML document is an object when it comes to the DOM (the head, body, h1 and p are all objects). JavaScript works with objects. Therefore, this means that with the help of the DOM, the HTML document and JavaScript can now communicate together. </p> 
           <p>The DOM represents the content in the HTML document as a tree structure. Like below:</p>
           <img src="Pictures/dom-tree.png">
-          <p>Everything branching off the HTML document is called a node.  With the use of DevTools, we are able to view the DOM in our browser window, and have the ability to take any of the nodes and change, add to or delete them.</p>  
-          <p>The DOM can easily read, access and update the contents of the document without having to refresh the webpage.</p>
+          <p>Everything branching off the HTML document is called a node.  With the use of DevTools, we are able to view the DOM in our browser window, and have the ability to take any of the nodes and 
+            easily read, access and update the contents of the document without having to refresh the webpage.</p>  
           </div>
         <div>
           <img src="te-mata-peak.png" class="footer-image">
