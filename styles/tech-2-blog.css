@@ -51,7 +51,7 @@ h3 {
   display: inline-flex;
 }
 #box-model {
-  width: 50%;
+  width: 40%;
 }
 .text-box {
   display:inline-block;
@@ -63,7 +63,8 @@ h3 {
   margin-bottom: 50px;
 }
 #beach-side {
-  width: 185;
+  
+  height: 
 }
 .frame-only {
   border: 20px solid #795548;
@@ -114,5 +115,9 @@ h3 {
   }
   h2, h3 {
     font-size: 20px;
+  }
+  .text-box {
+    width: 100%;
+    padding: 0;
   }
 }
