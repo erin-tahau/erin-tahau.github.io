@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <title>Sprint5- Core </title>
+  </head>
+  <body>
+    <a id="scroll-top"></a>
+      <div>
+        <img class="logo" src="../erin-blog.png">
+      </div>
+      <div class="topnav">
+        <a href="../index.html">HOME</a>
+        <a href="../about-me.html">ABOUT ME</a> 
+        <a href="../blog-page.html">BLOG</a>
+      </div>
+      <div>
+        <h2>Foundations Reflections</h2>
+      </div>
+      <div>
+        <img src="Pictures/self-reflection.jpg" alt="Image of person looking out over a lake and mountain"/>
+      </div>
+      <h3>What are three new things you have learnt about yourself and your ego due to the core learning?</h3>
+        <div class="text-box">
+          <ol>
+            <li>
+              I always thought I had a learning style, and I couldn't change that. But understanding the growth 
+              mindset principles, I now know that, with focused effort, I can take on different learning styles.
+            </li>
+            <li>
+              Prior to this course, I thought I could easily ask for help. While learning more about myself, and 
+              reading back on my reflections, and through witnessing how I've been tackling the challenges; I have found that I 
+              have always struggled to ask for help. 1- because my ego get's in the way (I don't want people to see I'm struggling, so I keep quiet), 
+              and 2- I don't want to be a burden on anyone. I don't want my struggles to weigh someone else down.
+            </li>
+            <li>
+              I've really understood the importance of sleep, and being in the right frame of mind. Sitting in front of the computer 
+              after a terrible night with the kids, or not having regular breaks away from the screen, doesn't = more productive work. 
+              I have had whole days where I haven't been focused and my output has been minimal. 
+              There have been other days when I have been energised and taken regular breaks, and everything seems to click.
+            </li>
+          </ol>
+        </div>
+
+        <h3>What are the role of values, empathy, and self-awareness in learning and programming?</h3>
+        <div class="text-box">
+          <p>
+            <strong>Values-</strong> Understanding my values has given me insight into why I want to learn, and why I can embrace the suck of being stuck on something, 
+            without throwing my toys and walking away.
+            One of my values is that I'm curious, and I have found myself in google rabbit holes, really trying to understand 
+          </p>
+          <p>
+            <strong>Empathy-</strong> I understand that everyone is on their own journey and has their own stresses going on in their personal life. So having empathy 
+            towards someone who may not be in the best frame of mind, and meeting them with kindness would help the learning environment. 
+            Also having empathy towards myself, and understanding that today may not be a good day, so it's ok to not do my best, and tomorrow, I will come back refreshed and try again. 
+          </p>
+          <p>
+            <strong>Self-Awareness-</strong> By really being honest with myself, and being aware of why I do things, or might not do things. 
+            <br>
+            For example, I have found that asking a question gives me feelings of anxiety. Because….. I'm worried that I'm taking up someone's 
+            valuable time? I'm worried they will tell me the question is silly, and I should know the answer? 
+            <br>
+            If I were to say to a facilitator that I felt this way, I know that I'll be told that everyone is wanting to help, and there are no stupid questions.
+            However, even though I know this, I still feel anxious asking, so I think there is a lot more core work that needs to be done to understand the root 
+            of this issue. But for now, understanding myself and why I feel a certain way, is the first step to be able to break these feelings of anxiety when reaching out.
+          </p>
+        </div>
+
+        <h3>What has surprised you the most about the core learning?</h3>
+        <div class="text-box">
+          <p>
+            I am all for self improvement, so I enjoy learning about how and why I do certain things. So the core learning was really enjoyable, and insightful.
+          </p>
+          <p>
+            I've found it hard that I couldn't deep dive on the core material because of the timeframes I was under to complete the course material in time. 
+            But was able to research enough on each subject to really get a good understanding of each topic.
+          </p>
+          <p>
+            Why I enjoy it so much is because this content can be applied to every day life, and what I am learning, I can teach my own kids, so that they can become better learners and people.
+          </p>
+        </div>
+
+        <h3>Why do you think we, a programming school, are spending so much time focusing on core learning in a web development Bootcamp course?</h3>
+        <div class="text-box">
+          <p>
+            While we are on the course (which is so fast paced and content heavy), it will help me understand myself, my learning style, the importance of rest and reaching out. 
+            But to also trust the curriculum. It has also given me tools to manage my negative inner voice.
+          </p>
+          <p>
+            In the workforce, it will initially help me to be more employable, but then it will help me to become a better employee who is able to work better with others, 
+            which will (hopefully) improve the work environment and employee output. 
+          </p>
+        </div>
+
+        <h3>Does the time you spent studying core learning here feel like a waste of time? Should you have just used that time to practise programming instead?</h3>
+        <div class="text-box">
+          <p>
+            No. Not at all. 
+          </p>
+          <p>
+            I really find the programming side challenging. And have really enjoyed the core learning. 
+            I have found that the core learning has been a welcomed break from the technical learning. But has also helped me to embrace the technical learning.
+          </p>
+          <p>
+            I probably should have spent more time programming. At this stage, a week away from the start of Bootcamp, I feel like I'm not quite where I should be. 
+            But I found, especially sprint 4 and sprint 5, come Thursday, my brain is like a bowl of mashed potato. And as much as I try to be productive, I really struggled to focus, to understand, and to even think. 
+            And with that, I would finish my day stressed and feeling negative towards my learning.
+            Had I programmed the whole 5 weeks instead of learning some very valuable core skills, my foundations journey could have looked a whole lot different, and not in a good way. 
+          </p>
+        </div>
+
+        <h3></h3>
+        <div class="text-box">
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+
+        <div>
+          <a href="#scroll-top">BACK TO TOP</a>
+          <img src="te-mata-peak.png" class="footer-image">
+        </div>  
+    </body>
+</html>
